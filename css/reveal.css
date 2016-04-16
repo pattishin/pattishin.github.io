@@ -165,8 +165,13 @@ html:-moz-full-screen-ancestor {
 .reveal li.fragment img {
   border: none; }
 
+.reveal .side-list li img {
+  width: auto; 
+  height: 200px; }
+
 .reveal ul {
-  display: table; }
+  display: table; 
+  margin: 0px !important; }
 
 .reveal ul li {
   display: table-cell; }

@@ -2,7 +2,7 @@
  * Presentation JS
  * Build with Confidence
  *
- * @pattishin
+ * twitter: @pattishin
  *******/ 
 var revealConfig = {
     controls: true,

@@ -67,89 +67,128 @@
                       </div>
                     </li>
                   </ul>
-                  <aside class="notes">
-                    This is the general idea of web development
-                  </aside>
 				</section>
-                
-				<section data-markdown>
-                  <script type="text/template">
+
+                <section>
+                  <section data-markdown>
+                    <script type="text/template">
                       ## Basic setup
                       ```
-  <!doctype html>
-  <html lang="en">
-      <head>
-          <meta charset="utf-8">
-          <title>Build with Confidence - @pattishin</title>
-          <meta name="description" content="Quick start on your own web application development">
-          <meta name="author" content="pattishin">
-
-          <!-- Your styles-->
-          <link rel="stylesheet" href="yourcss.css">
-      </head>
-      <body>
-        <h1> Coffee! </h1>
-      </body>
-      <!-- Your javascript-->
-      <script type="text/javascript" src="yourjs.js" />
-  </html>
+                      <!doctype html>
                       ```
-                  </script>
-				</section>
+                      ```
+                      <html lang="en">
+                      ```
+                      ```
+                      <head>
+                        ```
+                        ```
+                        <meta charset="utf-8">
+                        ```
+                        ```
+                        <title>Build with Confidence - @pattishin</title>
+                        ```
+                        ```
+                        <meta name="description" content="Quick start on your own web application development">
+                        ```
+                        ```
+                        <meta name="author" content="pattishin">
+                        ```
+                        ```
+                        <!-- Your styles-->
+                        ```
+                        ```
+                        <link rel="stylesheet" href="yourcss.css">
+                        ```
+                        ```
+                      </head>
+                      ```
+                      ```
+                      <body>
+                        ```
+                        ```
+                        <h1> Coffee! </h1>
+                        ```
+                        ```
+                      </body>
+                      ```
+                    </script>
+                  </section>
+                  
+                  <section data-markdown>
+                    <script type="text/template">
+                      ```
+                      <!-- Your javascript-->
+                      ```
+                      ```
+                      <script type="text/javascript" src="yourjs.js" />
+                      ```
+                      ```
+                      </html>
+                      ```
+                    </script>
+                  </section>
+                </section>
                 
                 <section>
                   <h3>Suggested developer tools</h3>
-                  <ol id="fragments">
+                  <div class="fragment">
+                    <p>Browser Debugging Tools</p>
+                    <pre><code>Open Chrome, View > Developer > Developer Tools</code></pre>
+                  </div>
+                  <ul id="fragments" class="side-list">
                     <li class="fragment">
-                      <p>GitHub - project versioning</p>
+                      <p>GitHub</p>
+                      <img data-src="./images/octocat.png" />
                     </li>
                     <li class="fragment">
-                      <p>Browser Debugging Tools</p>
-                      <p>i.e open Chrome and select View > Developer > Developer Tools</p>
-                    </li>
-                    <li class="fragment">
-                      <p>npm (Node Package Manager)</p>
+                      <p>npm</p>
+                      <img data-src="./images/npm.png" />
                       <pre><code>npm install react</code></pre>  
                     </li>
-                  </ol>
+                  </ul>
                 </section>
                 
                 <section>
                   <h3>Feeling Adventurous?</h3>
                   <h5>Leverage some popular frameworks
-                  <ol id="fragments">
+                  <ul id="fragments" class="side-list">
                     <li class="fragment">
                       <p>BackboneJS</p>
+                      <img data-src="./images/backbone.png"/>
                     </li>
                     <li class="fragment">
                       <p>MarionetteJS</p>
+                      <img data-src="./images/marionette.png"/>
                     </li>
                     <li class="fragment">
                       <p>ReactJS</p>
+                      <img data-src="./images/react.png"/>
                     </li>
                     <li class="fragment">
                       <p>AngularJS</p>
+                      <img data-src="./images/angular.png" />
                     </li>
-                  </ol>
+                  </ul>
                 </section>
                 
                 <section>
                   <h3>Quick deploys?</h3>
-                  <ol id="fragments">
+                  <ul id="fragments" class="side-list">
                     <li class="fragment">
                       <p>GitHub.io</p>
-                      <p>(this project is featured in github.io <a href="pattishin.github.io">pattishin.github.io</a>)</p>
+                      <img data-src="./images/octocat.png" />
                     </li>
                     <li class="fragment">
                       <p>Heroku<p>
+                      <img data-src="./images/heroku.png" />  
                     </li>
-                  </ol>
+                  </ul>
                 </section>
                 
                 <section>
                   <h3>Utilize APIs to populate your application</h3>
-                  <p>Star Wars Example:</p>
-                  <p><a href="https://swapi.co/">https://swapi.co/</a></p>
+                  <p>Star Wars Example: <a href="https://swapi.co/">https://swapi.co/</a></p>
                   <div class="star-wars-data">
                     <a>Populate!</a>
                     <div class="response"></div>
@@ -159,7 +198,7 @@
                 <section>
                   <p>
                     <q>&ldquo;Do one thing every day that scares you&rdquo;</q> 
-                    <i>- Eleanor Roosevelt</i>
+                    <strong><i>- Eleanor Roosevelt</i></strong>
                   </p>
 				</section>
 
@@ -175,6 +214,7 @@
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
         <!-- main js-->
-        <script type="text/javascript" src="js/presentation.js"></script>
+        <script type="text/javascript" src="js/main/presentation.js"></script>
 	</body>
 </html>
+
