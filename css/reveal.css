@@ -53,6 +53,12 @@ html:-webkit-full-screen-ancestor {
 html:-moz-full-screen-ancestor {
   background-color: inherit; }
 
+.reveal section img {
+  height: 200px;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;}
+
 /*********************************************
  * VIEW FRAGMENTS
  *********************************************/
@@ -162,6 +168,10 @@ html:-moz-full-screen-ancestor {
 .reveal section p {
   font-size: 25px; }
 
+.reveal img.full_size {
+  width: auto; 
+  height: auto; }
+
 .reveal li.fragment img {
   border: none; }
 
@@ -174,6 +184,8 @@ html:-moz-full-screen-ancestor {
   margin: 0px !important; }
 
 .reveal ul li {
+  width: 45%;
+  vertical-align: top;
   display: table-cell; }
 
 .reveal ul li.fragment {
